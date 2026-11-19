@@ -1,0 +1,102 @@
+/* Chapters 04-15 and the colophon. Colour comes from --accent, set per chapter. */
+.study { background: #080909; }
+.study .scene {
+  background:
+    radial-gradient(ellipse at 70% 47%, color-mix(in srgb, var(--accent) 13%, transparent), transparent 43%),
+    radial-gradient(ellipse at 22% 84%, rgba(54, 87, 59, .09), transparent 34%),
+    #080909;
+}
+.study[data-text="right"] .scene {
+  background:
+    radial-gradient(ellipse at 30% 47%, color-mix(in srgb, var(--accent) 13%, transparent), transparent 43%),
+    radial-gradient(ellipse at 80% 84%, rgba(54, 87, 59, .09), transparent 34%),
+    #080909;
+}
+.study-screen { position: absolute; inset: 0; display: block; width: 100%; height: 100%; pointer-events: none; }
+.study-main { position: absolute; inset: 0; pointer-events: none; }
+.study-intro {
+  position: absolute;
+  top: 48%;
+  width: min(430px, 37vw);
+  transform: translateY(-50%);
+  text-shadow: 0 2px 26px rgba(0, 0, 0, .64);
+}
+.study[data-text="left"] .study-intro { left: max(6.8vw, calc((100vw - 1240px) / 2 + 10px)); }
+.study[data-text="right"] .study-intro { right: max(6.8vw, calc((100vw - 1240px) / 2 + 10px)); }
+.study-intro h2 {
+  margin: 0;
+  color: #f1eee8;
+  font-family: var(--serif);
+  font-size: clamp(54px, 5.6vw, 80px);
+  font-weight: 400;
+  letter-spacing: -.06em;
+  line-height: .92;
+}
+.study-intro h2 em { color: var(--accent); font-weight: 400; }
+.study-latin { margin: 14px 0 0; color: var(--soft); font-family: var(--serif); font-size: 15px; font-style: italic; }
+.study-facts { display: grid; gap: 6px; margin: 22px 0 0; padding: 0; }
+.study-facts div { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding-top: 7px; border-top: 1px solid rgba(255, 255, 255, .09); }
+.study-facts dt { color: rgba(235, 231, 224, .43); font-size: 7px; font-weight: 650; letter-spacing: .19em; text-transform: uppercase; }
+.study-facts dd { margin: 0; color: rgba(244, 239, 233, .78); font-family: var(--serif); font-size: 13px; font-style: italic; text-align: right; }
+
+.study .eyebrow-rule { background: linear-gradient(90deg, var(--accent), transparent); }
+.study .wordmark-symbol { color: var(--accent); }
+.study .live-indicator { background: var(--accent); box-shadow: 0 0 10px var(--accent); }
+.study .corner-note-mark, .study .scroll-cue svg { color: var(--accent); }
+.study .chapter-links span { color: color-mix(in srgb, var(--accent) 70%, #fff); }
+.study .icon-button:focus-visible, .study .palette-button:focus-visible, .study .button:focus-visible { outline-color: var(--accent); }
+
+.study-rail { position: fixed; top: 50%; right: 12px; z-index: 30; display: grid; gap: 2px; transform: translateY(-50%); }
+.study-rail a { position: relative; display: block; width: 22px; height: 15px; }
+.study-rail a::before { content: ""; position: absolute; top: 50%; right: 0; width: 8px; height: 1px; background: rgba(255, 255, 255, .3); transition: width .2s ease, background .2s ease; }
+.study-rail a[aria-current]::before { width: 18px; background: rgba(255, 255, 255, .9); }
+.study-rail a:hover::before, .study-rail a:focus-visible::before { width: 18px; background: #fff; }
+.study-rail a span { position: absolute; top: 50%; right: 28px; padding: 3px 8px; border-radius: 6px; background: rgba(12, 14, 13, .86); color: rgba(244, 239, 233, .85); font-size: 7px; letter-spacing: .16em; white-space: nowrap; opacity: 0; pointer-events: none; transform: translateY(-50%); transition: opacity .15s ease; }
+.study-rail a:hover span, .study-rail a:focus-visible span { opacity: 1; }
+
+.colophon { display: grid; align-items: center; background: radial-gradient(ellipse at 20% 20%, rgba(120, 150, 130, .08), transparent 45%), #080909; }
+.colophon-inner { position: relative; z-index: 2; width: min(1120px, 100%); margin: 0 auto; padding: 12vh max(6.8vw, 24px) 10vh; }
+.colophon h2 { margin: 0; font-family: var(--serif); font-size: clamp(48px, 5.4vw, 76px); font-weight: 400; letter-spacing: -.06em; line-height: .95; }
+.colophon h2 em { color: #c9d8b8; font-weight: 400; }
+.colophon-lead { max-width: 640px; margin: 22px 0 0; color: var(--muted); font-family: var(--serif); font-size: 17px; line-height: 1.6; }
+.colophon-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 28px; margin: 40px 0 0; }
+.colophon-grid article { padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, .12); }
+.colophon-grid h3 { margin: 0 0 8px; color: rgba(244, 239, 233, .92); font-family: var(--serif); font-size: 19px; font-weight: 400; }
+.colophon-grid p { margin: 0 0 8px; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.colophon-grid .how { color: rgba(214, 226, 196, .78); }
+.colophon-grid cite { color: var(--soft); font-size: 10px; font-style: normal; letter-spacing: .06em; }
+.colophon kbd { font-family: inherit; padding: 0 4px; border: 1px solid rgba(255, 255, 255, .2); border-radius: 4px; }
+.colophon-caveat { max-width: 640px; margin: 34px 0 20px; color: var(--soft); font-family: var(--serif); font-size: 14px; font-style: italic; line-height: 1.6; }
+
+@media (max-width: 900px) { .study-rail { display: none; } }
+@media (max-width: 760px) {
+  .study-intro, .study[data-text="left"] .study-intro, .study[data-text="right"] .study-intro { top: 14%; right: auto; left: 5vw; width: min(300px, 64vw); transform: none; }
+  .study-intro h2 { font-size: clamp(40px, 11vw, 54px); line-height: .93; }
+  .study-intro .intro-copy { max-width: 270px; margin-top: 13px; font-size: 11px; line-height: 1.55; }
+  .study-latin, .study-facts, .study .page-footer, .study .corner-note { display: none; }
+  .colophon-grid { grid-template-columns: 1fr; }
+}
+
+/* Cover */
+.cover-title { margin: 0; color: #f1eee8; font-family: var(--serif); font-size: clamp(58px, 7vw, 108px); font-weight: 400; letter-spacing: -.065em; line-height: .9; }
+.cover-title em { color: var(--accent); font-weight: 400; }
+.cover .study-intro { width: min(560px, 46vw); }
+.cover-index { position: relative; z-index: 2; background: #080909; border-top: 1px solid rgba(255, 255, 255, .06); }
+.cover-index-inner { width: min(1120px, 100%); margin: 0 auto; padding: 12vh max(6.8vw, 24px) 10vh; }
+.cover-index h2 { margin: 0; font-family: var(--serif); font-size: clamp(38px, 4.4vw, 62px); font-weight: 400; letter-spacing: -.055em; line-height: .98; }
+.cover-index h2 em { color: #e9a3b6; font-weight: 400; }
+.rule-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; margin: 34px 0 54px; padding: 0; list-style: none; }
+.rule-strip li { padding-top: 12px; border-top: 1px solid rgba(255, 255, 255, .14); }
+.rule-strip span { color: rgba(235, 231, 224, .4); font-size: 8px; letter-spacing: .2em; }
+.rule-strip h3 { margin: 8px 0 6px; font-family: var(--serif); font-size: 18px; font-weight: 400; }
+.rule-strip p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.study-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; margin: 0; padding: 0; list-style: none; }
+.study-grid a { display: grid; gap: 4px; min-height: 118px; padding: 12px 13px; border: 1px solid rgba(255, 255, 255, .09); border-radius: 14px; background: rgba(255, 255, 255, .02); transition: border-color .2s ease, background .2s ease, transform .2s ease; }
+.study-grid a:hover, .study-grid a:focus-visible { border-color: rgba(255, 255, 255, .28); background: rgba(255, 255, 255, .05); transform: translateY(-2px); }
+.study-grid .num { color: rgba(235, 231, 224, .4); font-size: 8px; letter-spacing: .2em; }
+.study-grid .dots { display: flex; gap: 4px; margin: 6px 0 auto; }
+.study-grid .dots i { width: 11px; height: 11px; border-radius: 50%; }
+.study-grid strong { font-family: var(--serif); font-size: 16px; font-weight: 400; }
+.study-grid em { color: var(--soft); font-size: 11px; }
+@media (max-width: 900px) { .study-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .rule-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .cover .study-intro { width: min(300px, 64vw); } .cover-title { font-size: clamp(44px, 12vw, 58px); } .study-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .rule-strip { grid-template-columns: 1fr; } }

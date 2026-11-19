@@ -1,0 +1,108 @@
+/* Tema gelap berlapis ala produk premium. Satu lapisan override di atas styles.css + studies.css. */
+:root {
+  --bg: #000000; --surface: #161617; --surface-2: #1d1d1f;
+  --text: #f5f5f7; --text-2: #a1a1a6; --text-3: #86868b; --hairline: rgba(255, 255, 255, .1);
+  --blue: #2997FF; --blue-hover: #0071E3;
+  --ink: var(--text); --muted: var(--text-3); --soft: var(--text-2);
+  --serif: "Inter", "SF Pro Display", "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", "Plus Jakarta Sans", Roboto, Helvetica, Arial, sans-serif;
+  --sans: var(--serif);
+}
+html, body { background: var(--bg); color: var(--text); font-family: var(--serif); }
+#top { --accent: #e0a0b4; }
+#peony-study { --accent: #c96383; }
+#violet-study { --accent: #949fdd; }
+
+/* 1. Hilangkan dekorasi; navigasi hanya satu bar kaca di atas. */
+.topbar, .live-pill, .edition, .corner-note, .page-footer, .scroll-cue, .ambient-ascii,
+.scene-vignette, .scene-grain, .eyebrow-rule, .intro-caption, .dock-overline, .keyboard-hint { display: none !important; }
+
+/* 2. Ruang napas: jarak 140px antar studi, tanpa garis. Tepi scene memudar ke hitam. */
+.chapter:not(.cover):not(.colophon) { margin: 140px 0; }
+.chapter:not(.cover):not(.colophon) .scene {
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 9%, #000 91%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0, #000 9%, #000 91%, transparent 100%);
+}
+.chapter, .chapter + .chapter { border: 0 !important; }
+.chapter, .study, .chapter-two, .scene, .study .scene { background-color: var(--bg) !important; }
+.scene, .study .scene { background-image: none !important; }
+
+/* 3. Cahaya atmosfer berwarna bunga di belakang rangkaian bunga. */
+.chapter::after {
+  content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; mix-blend-mode: screen;
+  background: radial-gradient(ellipse 38% 46% at 69% 50%, color-mix(in srgb, var(--accent, #e9a3b6) 22%, transparent), transparent 100%);
+}
+.study[data-text="right"]::after { background: radial-gradient(ellipse 38% 46% at 31% 50%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 100%); }
+.colophon::after { display: none; }
+
+/* 4. Tipografi: putih bersih, abu terang, abu redup. */
+h1, .peony-intro h2, .violet-intro h2, .study-intro h2, .cover-title, .colophon h2, .cover-index h2 {
+  color: var(--text); font-weight: 600 !important; letter-spacing: -.035em !important; line-height: 1.04 !important;
+}
+h1 em, .peony-intro h2 em, .violet-intro h2 em, .study-intro h2 em, .cover-title em, .colophon h2 em, .cover-index h2 em {
+  color: var(--accent, #e9a3b6); font-style: normal; font-weight: 600 !important;
+}
+.eyebrow { color: var(--text-2); font-size: 11px; font-weight: 500; letter-spacing: .14em; }
+.intro-copy { color: var(--text-3); font-size: 16px; line-height: 1.6; }
+.study-latin { color: var(--text-2); font-family: var(--serif); font-size: 15px; font-style: italic; }
+.study-facts div { border-top: 1px solid var(--hairline); }
+.study-facts dt { color: var(--text-3); font-size: 10px; letter-spacing: .12em; }
+.study-facts dd { color: var(--text-2); font-family: var(--serif); font-style: normal; font-size: 13px; }
+.study-intro { text-shadow: none; }
+
+/* 5. Tombol & kontrol. Aksen biru untuk aksi utama. */
+.glass, .glass-inset { background: rgba(29, 29, 31, .72) !important; border: 1px solid var(--hairline) !important; box-shadow: none !important; -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); }
+.glass::before, .glass-inset::before, .glass::after, .glass-inset::after { display: none !important; }
+.controls-dock { border-radius: 20px !important; }
+.button-primary, .button-primary.glass {
+  background: var(--blue) !important; color: #fff !important; border: 0 !important; border-radius: 980px !important;
+  padding-inline: 22px; font-weight: 500; transition: background .2s ease !important;
+}
+.button-primary:hover { background: var(--blue-hover) !important; transform: none !important; box-shadow: none !important; }
+.button svg { color: #fff !important; }
+.text-link { color: var(--blue); }
+.icon-button:hover, .palette-button:hover { border-color: rgba(255, 255, 255, .28) !important; transform: none !important; box-shadow: none !important; }
+.button:focus-visible, .icon-button:focus-visible, .palette-button:focus-visible, .text-link:focus-visible { outline: 2px solid var(--blue) !important; outline-offset: 3px; }
+.study-rail a::before { background: rgba(255, 255, 255, .25); }
+
+/* 6. Bar navigasi global: kaca gelap. */
+.global-nav {
+  position: fixed; inset: 0 0 auto 0; z-index: 100; display: flex; align-items: center; justify-content: space-between;
+  height: 52px; padding: 0 max(24px, calc((100vw - 1120px) / 2));
+  background: rgba(0, 0, 0, .8); -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid rgba(255, 255, 255, .06);
+}
+.global-nav a { color: var(--text-2); font-size: 13px; transition: color .2s ease; }
+.global-nav a:hover, .global-nav a:focus-visible { color: var(--text); }
+.global-nav .gn-brand { color: var(--text); font-size: 15px; font-weight: 600; letter-spacing: -.01em; }
+.global-nav nav { display: flex; align-items: center; gap: 28px; }
+.global-nav .gn-cta { padding: 6px 14px; border-radius: 980px; background: var(--blue); color: #fff; font-weight: 500; }
+.global-nav .gn-cta:hover { background: var(--blue-hover); color: #fff; }
+html { scroll-padding-top: 52px; }
+
+/* 7. Bento grid gelap untuk indeks, aturan, dan catatan riset. */
+.cover-index, .colophon { background: var(--bg) !important; border: 0; }
+.cover-index-inner, .colophon-inner { padding-top: 160px; padding-bottom: 160px; }
+.cover-index h2, .colophon h2 { font-size: clamp(40px, 4.6vw, 64px); }
+.rule-strip { gap: 16px; margin: 56px 0 100px; }
+.rule-strip li, .colophon-grid article, .study-grid a {
+  padding: 28px; border: 1px solid var(--hairline); border-top: 1px solid var(--hairline); border-radius: 24px; background: var(--surface);
+}
+.rule-strip span, .study-grid .num { color: var(--text-3); font-size: 11px; }
+.rule-strip h3, .colophon-grid h3 { color: var(--text); font-family: var(--serif); font-weight: 600; font-size: 19px; letter-spacing: -.01em; }
+.rule-strip p, .colophon-grid p { color: var(--text-3); font-size: 14px; line-height: 1.6; }
+.colophon-grid { gap: 16px; }
+.colophon-grid .how { color: var(--text-2); }
+.colophon-grid cite { color: var(--text-3); }
+.colophon-lead { color: var(--text-2); font-family: var(--serif); }
+.colophon-caveat { color: var(--text-3); font-family: var(--serif); font-style: normal; }
+.study-grid { gap: 16px; }
+.study-grid a { min-height: 156px; }
+.study-grid a:hover, .study-grid a:focus-visible { background: var(--surface-2); border-color: rgba(255, 255, 255, .22); transform: none; }
+.study-grid strong { color: var(--text); font-family: var(--serif); font-weight: 600; font-size: 17px; }
+.study-grid em { color: var(--text-3); font-style: italic; }
+
+@media (max-width: 760px) {
+  .global-nav nav { gap: 16px; }
+  .chapter:not(.cover):not(.colophon) { margin: 80px 0; }
+  .cover-index-inner, .colophon-inner { padding-top: 100px; padding-bottom: 100px; }
+}
