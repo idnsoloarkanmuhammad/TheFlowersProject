@@ -1,0 +1,142 @@
+{
+  "studyOptions": 15,
+  "tested": 15,
+  "results": [
+    {
+      "id": "top",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "peony-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "violet-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "rose-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "tulip-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "lavender-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "sunflower-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "daisy-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "cherry-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "hydrangea-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "iris-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "poppy-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "dahlia-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "lotus-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "magnolia-study",
+      "initialPalette": 0,
+      "changedPalette": 1,
+      "changedRate": 1.25,
+      "restoredPalette": 0,
+      "restoredRate": 1,
+      "result": "PASS"
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,127 @@
+{
+  "studies": 15,
+  "passed": 15,
+  "results": [
+    {
+      "study": "top",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "peony-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "violet-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "rose-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "tulip-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "lavender-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "sunflower-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "daisy-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "cherry-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "hydrangea-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "iris-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "poppy-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "dahlia-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "lotus-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    },
+    {
+      "study": "magnolia-study",
+      "pause": true,
+      "resume": true,
+      "replay": true,
+      "palette": 1,
+      "result": "PASS"
+    }
+  ],
+  "pageErrors": []
+}

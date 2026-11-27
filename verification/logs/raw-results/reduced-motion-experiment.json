@@ -1,0 +1,48 @@
+{
+  "before": {
+    "state": {
+      "paletteName": "Claret",
+      "swatches": [
+        "#5c1426",
+        "#b3263f",
+        "#f2a7b0"
+      ],
+      "paused": true,
+      "paletteIndex": 0,
+      "palettes": [
+        "Claret",
+        "Apricot",
+        "Cream"
+      ],
+      "playbackRate": 1,
+      "time": 20
+    },
+    "raf": {
+      "pending": 0,
+      "maxPending": 0
+    }
+  },
+  "afterRateChange": {
+    "state": {
+      "paletteName": "Claret",
+      "swatches": [
+        "#5c1426",
+        "#b3263f",
+        "#f2a7b0"
+      ],
+      "paused": true,
+      "paletteIndex": 0,
+      "palettes": [
+        "Claret",
+        "Apricot",
+        "Cream"
+      ],
+      "playbackRate": 1.25,
+      "time": 20
+    },
+    "raf": {
+      "pending": 0,
+      "maxPending": 0
+    }
+  }
+}

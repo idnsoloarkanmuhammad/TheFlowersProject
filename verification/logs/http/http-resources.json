@@ -1,0 +1,176 @@
+{
+  "base": "http://127.0.0.1:8768/",
+  "requested": 28,
+  "passed": 28,
+  "failed": [],
+  "results": [
+    {
+      "path": "apple.css",
+      "status": 200,
+      "bytes": "23446",
+      "content_type": "text/css"
+    },
+    {
+      "path": "audio.js",
+      "status": 200,
+      "bytes": "3055",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "audio/avril-14th.mp3",
+      "status": 200,
+      "bytes": "3013677",
+      "content_type": "audio/mpeg"
+    },
+    {
+      "path": "botanical-data.js",
+      "status": 200,
+      "bytes": "2059",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "bouquet.js",
+      "status": 200,
+      "bytes": "32186",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "cover.js",
+      "status": 200,
+      "bytes": "6886",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "engine.js",
+      "status": 200,
+      "bytes": "19855",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "experiments.js",
+      "status": 200,
+      "bytes": "7573",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flower-explorer.js",
+      "status": 200,
+      "bytes": "1838",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flowers/cherry.js",
+      "status": 200,
+      "bytes": "4137",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flowers/dahlia.js",
+      "status": 200,
+      "bytes": "4213",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flowers/daisy.js",
+      "status": 200,
+      "bytes": "3571",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flowers/hydrangea.js",
+      "status": 200,
+      "bytes": "3528",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flowers/iris.js",
+      "status": 200,
+      "bytes": "3488",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flowers/lavender.js",
+      "status": 200,
+      "bytes": "3189",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flowers/lotus.js",
+      "status": 200,
+      "bytes": "4916",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flowers/magnolia.js",
+      "status": 200,
+      "bytes": "4431",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flowers/poppy.js",
+      "status": 200,
+      "bytes": "5017",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flowers/rose.js",
+      "status": 200,
+      "bytes": "4234",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flowers/sunflower.js",
+      "status": 200,
+      "bytes": "4092",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "flowers/tulip.js",
+      "status": 200,
+      "bytes": "3395",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": "12164",
+      "content_type": "text/html"
+    },
+    {
+      "path": "peony.js",
+      "status": 200,
+      "bytes": "26399",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "site.js",
+      "status": 200,
+      "bytes": "8262",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "studies.css",
+      "status": 200,
+      "bytes": "8262",
+      "content_type": "text/css"
+    },
+    {
+      "path": "studies.js",
+      "status": 200,
+      "bytes": "12012",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "bytes": "24995",
+      "content_type": "text/css"
+    },
+    {
+      "path": "violet.js",
+      "status": 200,
+      "bytes": "29915",
+      "content_type": "text/javascript"
+    }
+  ]
+}

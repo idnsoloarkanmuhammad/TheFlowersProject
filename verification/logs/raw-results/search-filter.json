@@ -1,0 +1,52 @@
+{
+  "initialCount": 15,
+  "cases": [
+    {
+      "case": "case-insensitive common-name substring",
+      "count": 1,
+      "names": [
+        "Lilies"
+      ]
+    },
+    {
+      "case": "scientific-name substring",
+      "count": 1,
+      "names": [
+        "Peonies"
+      ]
+    },
+    {
+      "case": "family filter",
+      "count": 3,
+      "names": [
+        "Sunflowers",
+        "Daisies",
+        "Dahlias"
+      ]
+    },
+    {
+      "case": "family filter Liliaceae",
+      "count": 2,
+      "names": [
+        "Lilies",
+        "Tulips"
+      ]
+    },
+    {
+      "case": "empty state",
+      "count": 0,
+      "emptyVisible": true,
+      "status": "0 of 15 studies shown."
+    },
+    {
+      "case": "reset",
+      "count": 15,
+      "query": "",
+      "family": "",
+      "resetDisabled": true
+    }
+  ],
+  "shortcutBefore": 0,
+  "shortcutAfter": 0,
+  "pageErrors": []
+}

@@ -1,0 +1,44 @@
+{
+  "initial": {
+    "raf": {
+      "pending": 1,
+      "maxPending": 2
+    },
+    "cover": false,
+    "lily": false
+  },
+  "after12RapidCycles": {
+    "raf": {
+      "pending": 1,
+      "maxPending": 2
+    },
+    "cover": false,
+    "lily": false
+  },
+  "afterPause": {
+    "raf": {
+      "pending": 0,
+      "maxPending": 2
+    },
+    "cover": true,
+    "lily": true
+  },
+  "afterResume": {
+    "raf": {
+      "pending": 1,
+      "maxPending": 2
+    },
+    "cover": false,
+    "lily": false
+  },
+  "hiddenPending": {
+    "pending": 0,
+    "maxPending": 2
+  },
+  "roseTimeBeforeHidden": 0.3332999999999997,
+  "roseTimeWhileHidden": 0.3332999999999997,
+  "roseTimeAfterResume": 0.6166333333333331,
+  "roseFrozenWhileHidden": true,
+  "roseResumed": true,
+  "pageErrors": []
+}

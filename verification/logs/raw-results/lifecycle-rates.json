@@ -1,0 +1,47 @@
+{
+  "rateAndPause": [
+    {
+      "renderer": "lily",
+      "initialTime": 1.5400000000001397,
+      "acceleratedTime": 2.63177500000014,
+      "deltaDuring850msAt1.25": 1.0917750000000004,
+      "rateApplied": true,
+      "paused": true,
+      "pauseTimeDelta": 0.0,
+      "pauseStable": true
+    },
+    {
+      "renderer": "peony",
+      "initialTime": 0.4500333333333332,
+      "acceleratedTime": 1.512533333333333,
+      "deltaDuring850msAt1.25": 1.0625,
+      "rateApplied": true,
+      "paused": true,
+      "pauseTimeDelta": 0.0,
+      "pauseStable": true
+    },
+    {
+      "renderer": "violet",
+      "initialTime": 0.4166333333333326,
+      "acceleratedTime": 1.5000083333333334,
+      "deltaDuring850msAt1.25": 1.0833750000000009,
+      "rateApplied": true,
+      "paused": true,
+      "pauseTimeDelta": 0.0,
+      "pauseStable": true
+    },
+    {
+      "renderer": "rose",
+      "initialTime": 0.38333333333333336,
+      "acceleratedTime": 1.4874583333333335,
+      "deltaDuring850msAt1.25": 1.1041250000000002,
+      "rateApplied": true,
+      "paused": true,
+      "pauseTimeDelta": 0.0,
+      "pauseStable": true
+    }
+  ],
+  "rafPendingCount": 1,
+  "rafCallSites": [],
+  "pageErrors": []
+}

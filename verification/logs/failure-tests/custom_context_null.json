@@ -1,0 +1,22 @@
+{
+  "data": {
+    "scenario": "custom_context_null",
+    "roseError": false,
+    "roseState": "Playing",
+    "roseControlsDisabled": false,
+    "violetError": true,
+    "violetState": "Unavailable",
+    "violetControlsDisabled": true,
+    "unaffected": true,
+    "ioAvailable": true,
+    "sceneErrors": 1,
+    "studyGridCount": 15
+  },
+  "pageErrors": [],
+  "consoleMessages": [
+    {
+      "type": "error",
+      "text": "[VioletScene] The violet renderer could not be initialized or drawn. Error: A canvas 2D context could not be created.\n    at <anonymous>:75:31\n    at <anonymous>:867:3"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "beforeExplicitClick": {
+    "src": null,
+    "preload": "none",
+    "paused": true,
+    "playCalls": 0,
+    "buttonState": "off"
+  },
+  "afterExplicitClick": {
+    "src": "audio/avril-14th.mp3",
+    "preload": "none",
+    "paused": true,
+    "playCalls": 1,
+    "buttonPressed": "false"
+  },
+  "noAutoplay": true,
+  "startsOnlyAfterClick": true,
+  "pageErrors": []
+}

@@ -1,0 +1,137 @@
+{
+  "beforeCount": 16,
+  "afterCount": 16,
+  "compared": 16,
+  "identical": 16,
+  "different": [],
+  "results": [
+    {
+      "canvas": "cover-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "f754fd57bbb2c37d3f8bf6cdd2d4f13c525b5bb825840a3145344f6a388b312b",
+      "after": "f754fd57bbb2c37d3f8bf6cdd2d4f13c525b5bb825840a3145344f6a388b312b"
+    },
+    {
+      "canvas": "screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "48eea35686f33700a0a0852533d378f2680b8704f66fa47ccd5fd03410b8fdce",
+      "after": "48eea35686f33700a0a0852533d378f2680b8704f66fa47ccd5fd03410b8fdce"
+    },
+    {
+      "canvas": "peony-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "ad1d26491e8a5616ba56a7f4671e1cde582626257e3921e16cb79752348e33ff",
+      "after": "ad1d26491e8a5616ba56a7f4671e1cde582626257e3921e16cb79752348e33ff"
+    },
+    {
+      "canvas": "violet-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "6f684368f263f3c0f1b7fd337f786b8cfe533c4264a23c3dcdc284273bcd8f57",
+      "after": "6f684368f263f3c0f1b7fd337f786b8cfe533c4264a23c3dcdc284273bcd8f57"
+    },
+    {
+      "canvas": "rose-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "986d409a76aad2db13bdbfe23ee249a1202366df4e45a95fdb5e8c7006889552",
+      "after": "986d409a76aad2db13bdbfe23ee249a1202366df4e45a95fdb5e8c7006889552"
+    },
+    {
+      "canvas": "tulip-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "152cda9e61f091ecbb75f832e6642dd59898cfa0436131f29fd0afbd6cd4c724",
+      "after": "152cda9e61f091ecbb75f832e6642dd59898cfa0436131f29fd0afbd6cd4c724"
+    },
+    {
+      "canvas": "lavender-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "07151ac9fcf3d2fc589586f764572783d4af7587e99453f93f2d7f0fb599b659",
+      "after": "07151ac9fcf3d2fc589586f764572783d4af7587e99453f93f2d7f0fb599b659"
+    },
+    {
+      "canvas": "sunflower-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "2f647489fa954442d0ca131479a20f322af4bc8f2de7b798c4c27c564870130a",
+      "after": "2f647489fa954442d0ca131479a20f322af4bc8f2de7b798c4c27c564870130a"
+    },
+    {
+      "canvas": "daisy-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "4a88a30ef3ec9a971c32d7b118a18c2266cbcbf1cdff93edf7315190add898f7",
+      "after": "4a88a30ef3ec9a971c32d7b118a18c2266cbcbf1cdff93edf7315190add898f7"
+    },
+    {
+      "canvas": "cherry-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "dc9b30654674d0ce644c83fb350c513d241e569986e2d01f81b852e2fe78c7f6",
+      "after": "dc9b30654674d0ce644c83fb350c513d241e569986e2d01f81b852e2fe78c7f6"
+    },
+    {
+      "canvas": "hydrangea-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "599d811a215f762daf1e62d4e04714719c2c0aab2d707cbe3e96ea67bf9d41af",
+      "after": "599d811a215f762daf1e62d4e04714719c2c0aab2d707cbe3e96ea67bf9d41af"
+    },
+    {
+      "canvas": "iris-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "9e7489449c1d26b31623f1e8dabc86aa4279391049abe8398f02002312a9cc4f",
+      "after": "9e7489449c1d26b31623f1e8dabc86aa4279391049abe8398f02002312a9cc4f"
+    },
+    {
+      "canvas": "poppy-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "ebb407c2a5b4e8f321935d0d15f3280402352f45f1717c6fd89c57c62f0520e8",
+      "after": "ebb407c2a5b4e8f321935d0d15f3280402352f45f1717c6fd89c57c62f0520e8"
+    },
+    {
+      "canvas": "dahlia-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "bcf78ae3b6b73fd5339d349e0f11e06d92481a2fbf1400d99eb4e1e9be843d3d",
+      "after": "bcf78ae3b6b73fd5339d349e0f11e06d92481a2fbf1400d99eb4e1e9be843d3d"
+    },
+    {
+      "canvas": "lotus-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "c202c2143283e3f31bc6f767962e9e0dc996db3ec51eef8cb49d0286e9b5a63b",
+      "after": "c202c2143283e3f31bc6f767962e9e0dc996db3ec51eef8cb49d0286e9b5a63b"
+    },
+    {
+      "canvas": "magnolia-screen",
+      "existsAfter": true,
+      "dimensionsEqual": true,
+      "pixelsIdentical": true,
+      "before": "9d247f37871b385b7a7e83598260517fb89529bae15031ce3a979f6effcfb2ec",
+      "after": "9d247f37871b385b7a7e83598260517fb89529bae15031ce3a979f6effcfb2ec"
+    }
+  ]
+}

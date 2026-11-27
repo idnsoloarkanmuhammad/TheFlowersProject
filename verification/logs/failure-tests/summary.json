@@ -1,0 +1,89 @@
+[
+  {
+    "data": {
+      "scenario": "engine_context_null",
+      "roseError": true,
+      "roseState": "Unavailable",
+      "roseControlsDisabled": true,
+      "violetError": false,
+      "violetState": "Playing",
+      "violetControlsDisabled": false,
+      "unaffected": true,
+      "ioAvailable": true,
+      "sceneErrors": 1,
+      "studyGridCount": 15
+    },
+    "pageErrors": [],
+    "consoleMessages": [
+      {
+        "type": "error",
+        "text": "[FlowerEngine] Could not mount the Roses study. Error: Canvas 2D context could not be created.\n    at Object.mount (<anonymous>:189:59)\n    at <anonymous>:167:31\n    at Array.forEach (<anonymous>)\n    at <anonymous>:163:11\n    at <anonymous>:206:3"
+      },
+      {
+        "type": "error",
+        "text": "[Studies] Could not mount the rose-study study. Error: Renderer mount returned no instance.\n    at <anonymous>:172:46\n    at Array.forEach (<anonymous>)\n    at <anonymous>:163:11\n    at <anonymous>:206:3"
+      }
+    ]
+  },
+  {
+    "data": {
+      "scenario": "custom_context_null",
+      "roseError": false,
+      "roseState": "Playing",
+      "roseControlsDisabled": false,
+      "violetError": true,
+      "violetState": "Unavailable",
+      "violetControlsDisabled": true,
+      "unaffected": true,
+      "ioAvailable": true,
+      "sceneErrors": 1,
+      "studyGridCount": 15
+    },
+    "pageErrors": [],
+    "consoleMessages": [
+      {
+        "type": "error",
+        "text": "[VioletScene] The violet renderer could not be initialized or drawn. Error: A canvas 2D context could not be created.\n    at <anonymous>:75:31\n    at <anonymous>:867:3"
+      }
+    ]
+  },
+  {
+    "data": {
+      "scenario": "observer_unavailable",
+      "roseError": false,
+      "roseState": "Playing",
+      "roseControlsDisabled": false,
+      "violetError": false,
+      "violetState": "Playing",
+      "violetControlsDisabled": false,
+      "unaffected": true,
+      "ioAvailable": false,
+      "sceneErrors": 0,
+      "studyGridCount": 15
+    },
+    "pageErrors": [],
+    "consoleMessages": []
+  },
+  {
+    "data": {
+      "dahliaError": true,
+      "dahliaStatus": "Unavailable",
+      "dahliaDisabled": true,
+      "roseStillMounted": true,
+      "tulipStillMounted": true,
+      "sunflowerStillMounted": true,
+      "otherSceneErrors": 1
+    },
+    "pageErrors": [],
+    "consoleMessages": [
+      {
+        "type": "error",
+        "text": "[FlowerEngine] The Dahlias renderer failed. Error: Injected test-only draw failure\n    at d.draw (eval at evaluate (:290:30), <anonymous>:1:79)\n    at render (<anonymous>:230:11)\n    at runInstanceSafely (<anonymous>:378:7)\n    at Object.setPalette (<anonymous>:298:16)\n    at Object.nextPalette (<anonymous>:291:25)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:162)\n    at UtilityScript.evaluate (<anonymous>:297:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+      },
+      {
+        "type": "error",
+        "text": "[Studies] Could not mount the dahlia-study study. Error: Injected test-only draw failure\n    at <anonymous>:159:44\n    at failInstance (<anonymous>:369:12)\n    at runInstanceSafely (<anonymous>:381:7)\n    at Object.setPalette (<anonymous>:298:16)\n    at Object.nextPalette (<anonymous>:291:25)\n    at eval (eval at evaluate (:290:30), <anonymous>:1:162)\n    at UtilityScript.evaluate (<anonymous>:297:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+      }
+    ]
+  }
+]

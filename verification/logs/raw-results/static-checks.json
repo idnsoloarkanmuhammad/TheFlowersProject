@@ -1,0 +1,65 @@
+{
+  "javascript": {
+    "count": 23,
+    "passed": 23,
+    "failed": []
+  },
+  "css": {
+    "count": 3,
+    "passed": 3,
+    "files": [
+      {
+        "file": "apple.css",
+        "rules": 154,
+        "errors": []
+      },
+      {
+        "file": "studies.css",
+        "rules": 66,
+        "errors": []
+      },
+      {
+        "file": "styles.css",
+        "rules": 153,
+        "errors": []
+      }
+    ]
+  },
+  "local_resources": {
+    "count": 26,
+    "missing": []
+  },
+  "project_presence": {
+    "design_direction": true,
+    "legacy_design_reference": true,
+    "license_decision": true,
+    "claude": true,
+    "antislop_skill": true,
+    "audio": true,
+    "botanical_sources": true
+  },
+  "flower_files": {
+    "count": 12,
+    "names": [
+      "cherry",
+      "dahlia",
+      "daisy",
+      "hydrangea",
+      "iris",
+      "lavender",
+      "lotus",
+      "magnolia",
+      "poppy",
+      "rose",
+      "sunflower",
+      "tulip"
+    ]
+  },
+  "test_injection_scan": {},
+  "file_hashes": {
+    "audio/avril-14th.mp3": "3e51b4448df3226c091fe21f9e1d13372265ecd3418ec7725c7d24482ca01e50",
+    "audio.js": "505d70ce26afabcef67ea37b04e4831a8aeeb3c01d47e63e2e8e9393f8fcde94",
+    "DESIGN-DIRECTION.md": "e21ed74cfd5b16c18cff16720b5fdd1797b9913ba4f69005ca7a7df9fcce298f",
+    "LICENSE-DECISION.md": "91b88e1b524d2306ecf276efdfa7af5b3fa87c97457468317509ab88ee36ea83"
+  }
+}

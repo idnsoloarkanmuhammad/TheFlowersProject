@@ -1,0 +1,582 @@
+{
+  "lang": "en",
+  "title": "The Flowers",
+  "main": 1,
+  "nav": 2,
+  "forms": 0,
+  "buttons": [
+    {
+      "id": "audio-toggle",
+      "text": "ENABLE AUDIO\n\u30fe(\u00b4\u25ef`)\uff89\u266a\u266a\u266a",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "open-experiments",
+      "text": "Experiment with a flower",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "study-filter-reset",
+      "text": "Clear filters",
+      "disabled": true,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "replay-hero",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "pause-toggle",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "palette-toggle",
+      "text": "Colour\nPink",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "peony-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "peony-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "peony-palette",
+      "text": "Colour\nRosewater",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "violet-replay",
+      "text": "Replay the flowering",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "violet-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "violet-palette",
+      "text": "Colour\nPeriwinkle",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "rose-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "rose-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "rose-palette",
+      "text": "Colour\nClaret",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "tulip-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "tulip-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "tulip-palette",
+      "text": "Colour\nFlame",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "lavender-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "lavender-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "lavender-palette",
+      "text": "Colour\nProvence",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "sunflower-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "sunflower-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "sunflower-palette",
+      "text": "Colour\nClassic",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "daisy-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "daisy-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "daisy-palette",
+      "text": "Colour\nMeadow",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "cherry-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "cherry-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "cherry-palette",
+      "text": "Colour\nSomei Yoshino",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "hydrangea-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "hydrangea-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "hydrangea-palette",
+      "text": "Colour\nAcidic",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "iris-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "iris-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "iris-palette",
+      "text": "Colour\nBearded blue",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "poppy-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "poppy-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "poppy-palette",
+      "text": "Colour\nField",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "dahlia-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "dahlia-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "dahlia-palette",
+      "text": "Colour\nSunset",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "lotus-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "lotus-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "lotus-palette",
+      "text": "Colour\nPink",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "magnolia-replay",
+      "text": "Replay the bloom",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "magnolia-pause",
+      "text": "",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "magnolia-palette",
+      "text": "Colour\nBlush",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "experiment-reset",
+      "text": "Reset",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    },
+    {
+      "id": "experiment-close",
+      "text": "Close",
+      "disabled": false,
+      "hidden": false,
+      "named": true,
+      "type": "button"
+    }
+  ],
+  "unnamedButtons": [],
+  "links": 39,
+  "brokenInternalLinks": [],
+  "unlabelledControls": [],
+  "duplicateIds": [],
+  "imageWithoutAlt": 0,
+  "canvasWithoutName": 0,
+  "studyGrid": 15,
+  "studyGridItems": [
+    {
+      "href": "#top",
+      "name": "Lilies",
+      "latin": "Lilium",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#peony-study",
+      "name": "Peonies",
+      "latin": "Paeonia",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#violet-study",
+      "name": "Violets",
+      "latin": "Viola",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#rose-study",
+      "name": "Roses",
+      "latin": "Rosa",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#tulip-study",
+      "name": "Tulips",
+      "latin": "Tulipa",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#lavender-study",
+      "name": "Lavender",
+      "latin": "Lavandula",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#sunflower-study",
+      "name": "Sunflowers",
+      "latin": "Helianthus annuus",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#daisy-study",
+      "name": "Daisies",
+      "latin": "Bellis perennis",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#cherry-study",
+      "name": "Cherry blossom",
+      "latin": "Prunus",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#hydrangea-study",
+      "name": "Hydrangeas",
+      "latin": "Hydrangea macrophylla",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#iris-study",
+      "name": "Irises",
+      "latin": "Iris germanica",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#poppy-study",
+      "name": "Poppies",
+      "latin": "Papaver rhoeas",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#dahlia-study",
+      "name": "Dahlias",
+      "latin": "Dahlia",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#lotus-study",
+      "name": "Lotus",
+      "latin": "Nelumbo nucifera",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    },
+    {
+      "href": "#magnolia-study",
+      "name": "Magnolia",
+      "latin": "Magnolia \u00d7 soulangeana",
+      "target": true,
+      "canvas": true,
+      "heading": true
+    }
+  ],
+  "studyGridTargets": true,
+  "studyGridCanvas": [],
+  "studyGridHeadings": [],
+  "studyRail": 15,
+  "focusRules": [
+    "button:focus-visible",
+    "a:focus-visible",
+    ".peony-controls .icon-button:focus-visible",
+    ".peony-controls .palette-button:focus-visible",
+    ".violet-controls .icon-button:focus-visible",
+    ".violet-controls .palette-button:focus-visible",
+    ".study .icon-button:focus-visible",
+    ".study .palette-button:focus-visible",
+    ".study .button:focus-visible",
+    ".study-rail a:focus-visible::before",
+    ".study-rail a:focus-visible span",
+    ".study-grid a:focus-visible",
+    ".button:focus-visible",
+    ".icon-button:focus-visible",
+    ".palette-button:focus-visible",
+    ".text-link:focus-visible",
+    ".global-nav a:focus-visible",
+    ":focus-visible) .audio-orb",
+    ":focus-visible) .audio-line",
+    ":focus-visible) .audio-wave",
+    ":focus-visible) .audio-label",
+    ":focus-visible) .audio-face",
+    ":focus-visible) .audio-hover-face",
+    ".audio-toggle:focus-visible",
+    ".study-filter-field input:focus-visible",
+    ".study-filter-field select:focus-visible",
+    ".experiment-field select:focus-visible",
+    ".experiment-field input:focus-visible"
+  ],
+  "firstTabFocus": {
+    "tag": "A",
+    "id": "",
+    "text": "The Flowers",
+    "outlineStyle": "solid",
+    "outlineWidth": "2px",
+    "focusVisible": true
+  },
+  "pageErrors": []
+}

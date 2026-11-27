@@ -1,0 +1,26 @@
+{
+  "data": {
+    "scenario": "engine_context_null",
+    "roseError": true,
+    "roseState": "Unavailable",
+    "roseControlsDisabled": true,
+    "violetError": false,
+    "violetState": "Playing",
+    "violetControlsDisabled": false,
+    "unaffected": true,
+    "ioAvailable": true,
+    "sceneErrors": 1,
+    "studyGridCount": 15
+  },
+  "pageErrors": [],
+  "consoleMessages": [
+    {
+      "type": "error",
+      "text": "[FlowerEngine] Could not mount the Roses study. Error: Canvas 2D context could not be created.\n    at Object.mount (<anonymous>:189:59)\n    at <anonymous>:167:31\n    at Array.forEach (<anonymous>)\n    at <anonymous>:163:11\n    at <anonymous>:206:3"
+    },
+    {
+      "type": "error",
+      "text": "[Studies] Could not mount the rose-study study. Error: Renderer mount returned no instance.\n    at <anonymous>:172:46\n    at Array.forEach (<anonymous>)\n    at <anonymous>:163:11\n    at <anonymous>:206:3"
+    }
+  ]
+}

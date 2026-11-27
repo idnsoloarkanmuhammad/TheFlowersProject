@@ -1,0 +1,75 @@
+{
+  "dialogOpened": true,
+  "before": {
+    "paletteName": "Claret",
+    "swatches": [
+      "#5c1426",
+      "#b3263f",
+      "#f2a7b0"
+    ],
+    "paused": false,
+    "paletteIndex": 0,
+    "palettes": [
+      "Claret",
+      "Apricot",
+      "Cream"
+    ],
+    "playbackRate": 1,
+    "time": 0
+  },
+  "changed": {
+    "paletteName": "Apricot",
+    "swatches": [
+      "#a3482e",
+      "#e8956b",
+      "#fbe0c4"
+    ],
+    "paused": false,
+    "paletteIndex": 1,
+    "palettes": [
+      "Claret",
+      "Apricot",
+      "Cream"
+    ],
+    "playbackRate": 1.25,
+    "time": 0
+  },
+  "keyboardRateAfterArrowLeft": "1",
+  "reset": {
+    "paletteName": "Claret",
+    "swatches": [
+      "#5c1426",
+      "#b3263f",
+      "#f2a7b0"
+    ],
+    "paused": false,
+    "paletteIndex": 0,
+    "palettes": [
+      "Claret",
+      "Apricot",
+      "Cream"
+    ],
+    "playbackRate": 1,
+    "time": 0
+  },
+  "afterClose": {
+    "paletteName": "Claret",
+    "swatches": [
+      "#5c1426",
+      "#b3263f",
+      "#f2a7b0"
+    ],
+    "paused": false,
+    "paletteIndex": 0,
+    "palettes": [
+      "Claret",
+      "Apricot",
+      "Cream"
+    ],
+    "playbackRate": 1,
+    "time": 0
+  },
+  "closed": true,
+  "pageErrors": [],
+  "consoleErrors": []
+}

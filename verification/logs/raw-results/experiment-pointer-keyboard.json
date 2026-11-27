@@ -1,0 +1,16 @@
+{
+  "pointerRate": "1.25",
+  "keyboardRate": "1",
+  "paletteAfterPointerKeyboard": 1,
+  "reducedMotionState": {
+    "pending": 0,
+    "reduce": true,
+    "paused": true
+  },
+  "afterClose": {
+    "paletteIndex": 0,
+    "playbackRate": 1,
+    "paused": true
+  },
+  "pageErrors": []
+}

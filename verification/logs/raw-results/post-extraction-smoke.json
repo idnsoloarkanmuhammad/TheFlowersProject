@@ -1,0 +1,63 @@
+{
+  "http": {
+    "requested": 28,
+    "passed": 28,
+    "failed": []
+  },
+  "browser": [
+    {
+      "context": "extracted-desktop",
+      "data": {
+        "title": "The Flowers",
+        "studies": 15,
+        "canvas": 16,
+        "overflow": false,
+        "search": true,
+        "familyOptions": 11,
+        "rail": "grid",
+        "reduce": false,
+        "paused": 0
+      },
+      "searchCount": 1,
+      "experimentReset": true,
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "context": "extracted-mobile-320",
+      "data": {
+        "title": "The Flowers",
+        "studies": 15,
+        "canvas": 16,
+        "overflow": false,
+        "search": true,
+        "familyOptions": 11,
+        "rail": "none",
+        "reduce": false,
+        "paused": 0
+      },
+      "searchCount": 1,
+      "experimentReset": true,
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "context": "extracted-reduced",
+      "data": {
+        "title": "The Flowers",
+        "studies": 15,
+        "canvas": 16,
+        "overflow": false,
+        "search": true,
+        "familyOptions": 11,
+        "rail": "grid",
+        "reduce": true,
+        "paused": 0
+      },
+      "searchCount": 1,
+      "experimentReset": true,
+      "pageErrors": [],
+      "consoleErrors": []
+    }
+  ]
+}

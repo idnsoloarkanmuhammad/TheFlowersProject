@@ -1,0 +1,17 @@
+{
+  "data": {
+    "scenario": "observer_unavailable",
+    "roseError": false,
+    "roseState": "Playing",
+    "roseControlsDisabled": false,
+    "violetError": false,
+    "violetState": "Playing",
+    "violetControlsDisabled": false,
+    "unaffected": true,
+    "ioAvailable": false,
+    "sceneErrors": 0,
+    "studyGridCount": 15
+  },
+  "pageErrors": [],
+  "consoleMessages": []
+}

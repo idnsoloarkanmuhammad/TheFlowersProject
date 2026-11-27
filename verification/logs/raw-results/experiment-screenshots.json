@@ -1,0 +1,61 @@
+{
+  "results": [
+    {
+      "context": "desktop",
+      "data": {
+        "open": true,
+        "study": "rose-study",
+        "palette": "1",
+        "rate": "1.25",
+        "dialog": {
+          "x": 460,
+          "y": 170.90625,
+          "width": 520,
+          "height": 558.171875,
+          "right": 980,
+          "bottom": 729.078125
+        },
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scrollWidth": 1440
+      },
+      "restored": {
+        "open": false,
+        "paletteIndex": 0,
+        "playbackRate": 1
+      },
+      "pageErrors": []
+    },
+    {
+      "context": "mobile-320",
+      "data": {
+        "open": true,
+        "study": "rose-study",
+        "palette": "1",
+        "rate": "1.25",
+        "dialog": {
+          "x": 16,
+          "y": 67.0625,
+          "width": 288,
+          "height": 605.859375,
+          "right": 304,
+          "bottom": 672.921875
+        },
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "scrollWidth": 320
+      },
+      "restored": {
+        "open": false,
+        "paletteIndex": 0,
+        "playbackRate": 1
+      },
+      "pageErrors": []
+    }
+  ],
+  "allPass": true
+}

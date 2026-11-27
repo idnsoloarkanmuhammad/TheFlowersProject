@@ -1,0 +1,64 @@
+{
+  "context": "desktop-fine",
+  "data": {
+    "title": "The Flowers",
+    "lang": "en",
+    "sections": [
+      "cover-study",
+      "index",
+      "top",
+      "peony-study",
+      "violet-study",
+      "rose-study",
+      "tulip-study",
+      "lavender-study",
+      "sunflower-study",
+      "daisy-study",
+      "cherry-study",
+      "hydrangea-study",
+      "iris-study",
+      "poppy-study",
+      "dahlia-study",
+      "lotus-study",
+      "magnolia-study",
+      "notes"
+    ],
+    "studyGridCount": 15,
+    "railCount": 15,
+    "nav": [
+      {
+        "text": "Studies",
+        "href": "#index",
+        "target": true
+      },
+      {
+        "text": "Research",
+        "href": "#notes",
+        "target": true
+      },
+      {
+        "text": "Lilies",
+        "href": "#top",
+        "target": true
+      }
+    ],
+    "canvasCount": 16,
+    "failed": 0,
+    "docScrollWidth": 1440,
+    "bodyScrollWidth": 1440,
+    "viewportWidth": 1440,
+    "railDisplay": "grid",
+    "familyFacts": 12,
+    "audioVisible": true,
+    "headerRect": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 52
+    },
+    "h1Count": 1
+  },
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": []
+}

@@ -1,0 +1,97 @@
+{
+  "scenario": "desktop-reduced",
+  "data": {
+    "studyCount": 15,
+    "studyTargets": true,
+    "families": [
+      "Asteraceae",
+      "Hydrangeaceae",
+      "Iridaceae",
+      "Lamiaceae",
+      "Liliaceae",
+      "Magnoliaceae",
+      "Nelumbonaceae",
+      "Paeoniaceae",
+      "Papaveraceae",
+      "Rosaceae",
+      "Violaceae"
+    ],
+    "familyOptionCount": 11,
+    "railCount": 15,
+    "railDisplay": "grid",
+    "canvasCount": 16,
+    "sceneErrors": 0,
+    "overflow": false,
+    "filterControls": {
+      "search": true,
+      "family": true,
+      "reset": true
+    },
+    "experimentTrigger": true,
+    "audio": {
+      "visible": true,
+      "pressed": "false",
+      "state": "off"
+    },
+    "reduce": true,
+    "raf": {
+      "pending": 0,
+      "maxPending": 0
+    },
+    "engines": 12,
+    "state": {
+      "lily": {
+        "paletteName": "Pink",
+        "paletteIndex": 0,
+        "palettes": [
+          "Pink",
+          "Porcelain",
+          "Garden"
+        ],
+        "paused": true,
+        "playbackRate": 1,
+        "time": 20
+      },
+      "peony": {
+        "paletteName": "Rosewater",
+        "swatches": [
+          "#71334b",
+          "#c96383",
+          "#ffd6dc"
+        ],
+        "paused": true,
+        "paletteIndex": 0,
+        "palettes": [
+          "Rosewater",
+          "Porcelain",
+          "Orchid",
+          "Marigold"
+        ],
+        "playbackRate": 1,
+        "time": 20
+      },
+      "violet": {
+        "paletteName": "Periwinkle",
+        "swatches": [
+          "#29345f",
+          "#7184d1",
+          "#e7e3ff"
+        ],
+        "paused": true,
+        "paletteIndex": 0,
+        "palettes": [
+          "Periwinkle",
+          "Blue Hour",
+          "Lavender Ink",
+          "Letter Gold"
+        ],
+        "playbackRate": 1,
+        "time": 20
+      }
+    },
+    "unnamedButtons": 0
+  },
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": []
+}

@@ -1,0 +1,664 @@
+{
+  "contexts": [
+    {
+      "scenario": "desktop-fine",
+      "data": {
+        "studyCount": 15,
+        "studyTargets": true,
+        "families": [
+          "Asteraceae",
+          "Hydrangeaceae",
+          "Iridaceae",
+          "Lamiaceae",
+          "Liliaceae",
+          "Magnoliaceae",
+          "Nelumbonaceae",
+          "Paeoniaceae",
+          "Papaveraceae",
+          "Rosaceae",
+          "Violaceae"
+        ],
+        "familyOptionCount": 11,
+        "railCount": 15,
+        "railDisplay": "grid",
+        "canvasCount": 16,
+        "sceneErrors": 0,
+        "overflow": false,
+        "filterControls": {
+          "search": true,
+          "family": true,
+          "reset": true
+        },
+        "experimentTrigger": true,
+        "audio": {
+          "visible": true,
+          "pressed": "false",
+          "state": "off"
+        },
+        "reduce": false,
+        "raf": {
+          "pending": 1,
+          "maxPending": 2
+        },
+        "engines": 12,
+        "state": {
+          "lily": {
+            "paletteName": "Pink",
+            "paletteIndex": 0,
+            "palettes": [
+              "Pink",
+              "Porcelain",
+              "Garden"
+            ],
+            "paused": false,
+            "playbackRate": 1,
+            "time": 1.0918999999999535
+          },
+          "peony": {
+            "paletteName": "Rosewater",
+            "swatches": [
+              "#71334b",
+              "#c96383",
+              "#ffd6dc"
+            ],
+            "paused": false,
+            "paletteIndex": 0,
+            "palettes": [
+              "Rosewater",
+              "Porcelain",
+              "Orchid",
+              "Marigold"
+            ],
+            "playbackRate": 1,
+            "time": 0
+          },
+          "violet": {
+            "paletteName": "Periwinkle",
+            "swatches": [
+              "#29345f",
+              "#7184d1",
+              "#e7e3ff"
+            ],
+            "paused": false,
+            "paletteIndex": 0,
+            "palettes": [
+              "Periwinkle",
+              "Blue Hour",
+              "Lavender Ink",
+              "Letter Gold"
+            ],
+            "playbackRate": 1,
+            "time": 0
+          }
+        },
+        "unnamedButtons": 0
+      },
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "scenario": "tablet-coarse",
+      "data": {
+        "studyCount": 15,
+        "studyTargets": true,
+        "families": [
+          "Asteraceae",
+          "Hydrangeaceae",
+          "Iridaceae",
+          "Lamiaceae",
+          "Liliaceae",
+          "Magnoliaceae",
+          "Nelumbonaceae",
+          "Paeoniaceae",
+          "Papaveraceae",
+          "Rosaceae",
+          "Violaceae"
+        ],
+        "familyOptionCount": 11,
+        "railCount": 15,
+        "railDisplay": "none",
+        "canvasCount": 16,
+        "sceneErrors": 0,
+        "overflow": false,
+        "filterControls": {
+          "search": true,
+          "family": true,
+          "reset": true
+        },
+        "experimentTrigger": true,
+        "audio": {
+          "visible": true,
+          "pressed": "false",
+          "state": "off"
+        },
+        "reduce": false,
+        "raf": {
+          "pending": 1,
+          "maxPending": 2
+        },
+        "engines": 12,
+        "state": {
+          "lily": {
+            "paletteName": "Pink",
+            "paletteIndex": 0,
+            "palettes": [
+              "Pink",
+              "Porcelain",
+              "Garden"
+            ],
+            "paused": false,
+            "playbackRate": 1,
+            "time": 0.2916
+          },
+          "peony": {
+            "paletteName": "Rosewater",
+            "swatches": [
+              "#71334b",
+              "#c96383",
+              "#ffd6dc"
+            ],
+            "paused": false,
+            "paletteIndex": 0,
+            "palettes": [
+              "Rosewater",
+              "Porcelain",
+              "Orchid",
+              "Marigold"
+            ],
+            "playbackRate": 1,
+            "time": 0
+          },
+          "violet": {
+            "paletteName": "Periwinkle",
+            "swatches": [
+              "#29345f",
+              "#7184d1",
+              "#e7e3ff"
+            ],
+            "paused": false,
+            "paletteIndex": 0,
+            "palettes": [
+              "Periwinkle",
+              "Blue Hour",
+              "Lavender Ink",
+              "Letter Gold"
+            ],
+            "playbackRate": 1,
+            "time": 0
+          }
+        },
+        "unnamedButtons": 0
+      },
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "scenario": "mobile-coarse",
+      "data": {
+        "studyCount": 15,
+        "studyTargets": true,
+        "families": [
+          "Asteraceae",
+          "Hydrangeaceae",
+          "Iridaceae",
+          "Lamiaceae",
+          "Liliaceae",
+          "Magnoliaceae",
+          "Nelumbonaceae",
+          "Paeoniaceae",
+          "Papaveraceae",
+          "Rosaceae",
+          "Violaceae"
+        ],
+        "familyOptionCount": 11,
+        "railCount": 15,
+        "railDisplay": "none",
+        "canvasCount": 16,
+        "sceneErrors": 0,
+        "overflow": false,
+        "filterControls": {
+          "search": true,
+          "family": true,
+          "reset": true
+        },
+        "experimentTrigger": true,
+        "audio": {
+          "visible": true,
+          "pressed": "false",
+          "state": "off"
+        },
+        "reduce": false,
+        "raf": {
+          "pending": 1,
+          "maxPending": 2
+        },
+        "engines": 12,
+        "state": {
+          "lily": {
+            "paletteName": "Pink",
+            "paletteIndex": 0,
+            "palettes": [
+              "Pink",
+              "Porcelain",
+              "Garden"
+            ],
+            "paused": false,
+            "playbackRate": 1,
+            "time": 0.0185
+          },
+          "peony": {
+            "paletteName": "Rosewater",
+            "swatches": [
+              "#71334b",
+              "#c96383",
+              "#ffd6dc"
+            ],
+            "paused": false,
+            "paletteIndex": 0,
+            "palettes": [
+              "Rosewater",
+              "Porcelain",
+              "Orchid",
+              "Marigold"
+            ],
+            "playbackRate": 1,
+            "time": 0
+          },
+          "violet": {
+            "paletteName": "Periwinkle",
+            "swatches": [
+              "#29345f",
+              "#7184d1",
+              "#e7e3ff"
+            ],
+            "paused": false,
+            "paletteIndex": 0,
+            "palettes": [
+              "Periwinkle",
+              "Blue Hour",
+              "Lavender Ink",
+              "Letter Gold"
+            ],
+            "playbackRate": 1,
+            "time": 0
+          }
+        },
+        "unnamedButtons": 0
+      },
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "scenario": "narrow-mobile-coarse",
+      "data": {
+        "studyCount": 15,
+        "studyTargets": true,
+        "families": [
+          "Asteraceae",
+          "Hydrangeaceae",
+          "Iridaceae",
+          "Lamiaceae",
+          "Liliaceae",
+          "Magnoliaceae",
+          "Nelumbonaceae",
+          "Paeoniaceae",
+          "Papaveraceae",
+          "Rosaceae",
+          "Violaceae"
+        ],
+        "familyOptionCount": 11,
+        "railCount": 15,
+        "railDisplay": "none",
+        "canvasCount": 16,
+        "sceneErrors": 0,
+        "overflow": false,
+        "filterControls": {
+          "search": true,
+          "family": true,
+          "reset": true
+        },
+        "experimentTrigger": true,
+        "audio": {
+          "visible": true,
+          "pressed": "false",
+          "state": "off"
+        },
+        "reduce": false,
+        "raf": {
+          "pending": 1,
+          "maxPending": 2
+        },
+        "engines": 12,
+        "state": {
+          "lily": {
+            "paletteName": "Pink",
+            "paletteIndex": 0,
+            "palettes": [
+              "Pink",
+              "Porcelain",
+              "Garden"
+            ],
+            "paused": false,
+            "playbackRate": 1,
+            "time": 0.01789999999990687
+          },
+          "peony": {
+            "paletteName": "Rosewater",
+            "swatches": [
+              "#71334b",
+              "#c96383",
+              "#ffd6dc"
+            ],
+            "paused": false,
+            "paletteIndex": 0,
+            "palettes": [
+              "Rosewater",
+              "Porcelain",
+              "Orchid",
+              "Marigold"
+            ],
+            "playbackRate": 1,
+            "time": 0
+          },
+          "violet": {
+            "paletteName": "Periwinkle",
+            "swatches": [
+              "#29345f",
+              "#7184d1",
+              "#e7e3ff"
+            ],
+            "paused": false,
+            "paletteIndex": 0,
+            "palettes": [
+              "Periwinkle",
+              "Blue Hour",
+              "Lavender Ink",
+              "Letter Gold"
+            ],
+            "playbackRate": 1,
+            "time": 0
+          }
+        },
+        "unnamedButtons": 0
+      },
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "scenario": "desktop-reduced",
+      "data": {
+        "studyCount": 15,
+        "studyTargets": true,
+        "families": [
+          "Asteraceae",
+          "Hydrangeaceae",
+          "Iridaceae",
+          "Lamiaceae",
+          "Liliaceae",
+          "Magnoliaceae",
+          "Nelumbonaceae",
+          "Paeoniaceae",
+          "Papaveraceae",
+          "Rosaceae",
+          "Violaceae"
+        ],
+        "familyOptionCount": 11,
+        "railCount": 15,
+        "railDisplay": "grid",
+        "canvasCount": 16,
+        "sceneErrors": 0,
+        "overflow": false,
+        "filterControls": {
+          "search": true,
+          "family": true,
+          "reset": true
+        },
+        "experimentTrigger": true,
+        "audio": {
+          "visible": true,
+          "pressed": "false",
+          "state": "off"
+        },
+        "reduce": true,
+        "raf": {
+          "pending": 0,
+          "maxPending": 0
+        },
+        "engines": 12,
+        "state": {
+          "lily": {
+            "paletteName": "Pink",
+            "paletteIndex": 0,
+            "palettes": [
+              "Pink",
+              "Porcelain",
+              "Garden"
+            ],
+            "paused": true,
+            "playbackRate": 1,
+            "time": 20
+          },
+          "peony": {
+            "paletteName": "Rosewater",
+            "swatches": [
+              "#71334b",
+              "#c96383",
+              "#ffd6dc"
+            ],
+            "paused": true,
+            "paletteIndex": 0,
+            "palettes": [
+              "Rosewater",
+              "Porcelain",
+              "Orchid",
+              "Marigold"
+            ],
+            "playbackRate": 1,
+            "time": 20
+          },
+          "violet": {
+            "paletteName": "Periwinkle",
+            "swatches": [
+              "#29345f",
+              "#7184d1",
+              "#e7e3ff"
+            ],
+            "paused": true,
+            "paletteIndex": 0,
+            "palettes": [
+              "Periwinkle",
+              "Blue Hour",
+              "Lavender Ink",
+              "Letter Gold"
+            ],
+            "playbackRate": 1,
+            "time": 20
+          }
+        },
+        "unnamedButtons": 0
+      },
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "searchFilter": {
+    "initialCount": 15,
+    "cases": [
+      {
+        "case": "case-insensitive common-name substring",
+        "count": 1,
+        "names": [
+          "Lilies"
+        ]
+      },
+      {
+        "case": "scientific-name substring",
+        "count": 1,
+        "names": [
+          "Peonies"
+        ]
+      },
+      {
+        "case": "family filter",
+        "count": 3,
+        "names": [
+          "Sunflowers",
+          "Daisies",
+          "Dahlias"
+        ]
+      },
+      {
+        "case": "family filter Liliaceae",
+        "count": 2,
+        "names": [
+          "Lilies",
+          "Tulips"
+        ]
+      },
+      {
+        "case": "empty state",
+        "count": 0,
+        "emptyVisible": true,
+        "status": "0 of 15 studies shown."
+      },
+      {
+        "case": "reset",
+        "count": 15,
+        "query": "",
+        "family": "",
+        "resetDisabled": true
+      }
+    ],
+    "shortcutBefore": 0,
+    "shortcutAfter": 0,
+    "pageErrors": []
+  },
+  "experiment": {
+    "dialogOpened": true,
+    "before": {
+      "paletteName": "Claret",
+      "swatches": [
+        "#5c1426",
+        "#b3263f",
+        "#f2a7b0"
+      ],
+      "paused": false,
+      "paletteIndex": 0,
+      "palettes": [
+        "Claret",
+        "Apricot",
+        "Cream"
+      ],
+      "playbackRate": 1,
+      "time": 0
+    },
+    "changed": {
+      "paletteName": "Apricot",
+      "swatches": [
+        "#a3482e",
+        "#e8956b",
+        "#fbe0c4"
+      ],
+      "paused": false,
+      "paletteIndex": 1,
+      "palettes": [
+        "Claret",
+        "Apricot",
+        "Cream"
+      ],
+      "playbackRate": 1.25,
+      "time": 0
+    },
+    "keyboardRateAfterArrowLeft": "1",
+    "reset": {
+      "paletteName": "Claret",
+      "swatches": [
+        "#5c1426",
+        "#b3263f",
+        "#f2a7b0"
+      ],
+      "paused": false,
+      "paletteIndex": 0,
+      "palettes": [
+        "Claret",
+        "Apricot",
+        "Cream"
+      ],
+      "playbackRate": 1,
+      "time": 0
+    },
+    "afterClose": {
+      "paletteName": "Claret",
+      "swatches": [
+        "#5c1426",
+        "#b3263f",
+        "#f2a7b0"
+      ],
+      "paused": false,
+      "paletteIndex": 0,
+      "palettes": [
+        "Claret",
+        "Apricot",
+        "Cream"
+      ],
+      "playbackRate": 1,
+      "time": 0
+    },
+    "closed": true,
+    "pageErrors": [],
+    "consoleErrors": []
+  },
+  "reducedMotion": {
+    "before": {
+      "state": {
+        "paletteName": "Claret",
+        "swatches": [
+          "#5c1426",
+          "#b3263f",
+          "#f2a7b0"
+        ],
+        "paused": true,
+        "paletteIndex": 0,
+        "palettes": [
+          "Claret",
+          "Apricot",
+          "Cream"
+        ],
+        "playbackRate": 1,
+        "time": 20
+      },
+      "raf": {
+        "pending": 0,
+        "maxPending": 0
+      }
+    },
+    "afterRateChange": {
+      "state": {
+        "paletteName": "Claret",
+        "swatches": [
+          "#5c1426",
+          "#b3263f",
+          "#f2a7b0"
+        ],
+        "paused": true,
+        "paletteIndex": 0,
+        "palettes": [
+          "Claret",
+          "Apricot",
+          "Cream"
+        ],
+        "playbackRate": 1.25,
+        "time": 20
+      },
+      "raf": {
+        "pending": 0,
+        "maxPending": 0
+      }
+    }
+  }
+}

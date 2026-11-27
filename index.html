@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Fifteen living botanical studies, from lilies to magnolias, drawn live and rendered in coloured ASCII.">
+  <title>The Flowers</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="studies.css">
+  <link rel="stylesheet" href="apple.css">
+  <script src="bouquet.js" defer></script>
+  <script src="peony.js" defer></script>
+  <script src="violet.js" defer></script>
+  <script src="engine.js" defer></script>
+  <script src="flowers/rose.js" defer></script>
+  <script src="flowers/tulip.js" defer></script>
+  <script src="flowers/lavender.js" defer></script>
+  <script src="flowers/sunflower.js" defer></script>
+  <script src="flowers/daisy.js" defer></script>
+  <script src="flowers/cherry.js" defer></script>
+  <script src="flowers/hydrangea.js" defer></script>
+  <script src="flowers/iris.js" defer></script>
+  <script src="flowers/poppy.js" defer></script>
+  <script src="flowers/dahlia.js" defer></script>
+  <script src="flowers/lotus.js" defer></script>
+  <script src="flowers/magnolia.js" defer></script>
+  <script src="botanical-data.js" defer></script>
+  <script src="cover.js" defer></script>
+  <script src="studies.js" defer></script>
+  <script src="flower-explorer.js" defer></script>
+  <script src="site.js" defer></script>
+  <script src="experiments.js" defer></script>
+  <script src="audio.js" defer></script>
+</head>
+<body>
+  <!-- Links to sections that JavaScript builds (index, notes, cover) stay hidden until those sections exist. -->
+  <header class="global-nav" aria-label="Site">
+    <a class="gn-brand" href="#top" data-cover-link>
+      <svg class="gn-mark" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+        <path d="M17 4.5c3.8 4.2 4.2 7.5 0 10.2C12.8 12 13.2 8.7 17 4.5Z" fill="currentColor"/>
+        <path d="M29.5 17c-4.2 3.8-7.5 4.2-10.2 0 2.7-4.2 6-3.8 10.2 0Z" fill="currentColor" opacity=".78"/>
+        <path d="M17 29.5c-3.8-4.2-4.2-7.5 0-10.2 4.2 2.7 3.8 6 0 10.2Z" fill="currentColor" opacity=".64"/>
+        <path d="M4.5 17c4.2-3.8 7.5-4.2 10.2 0-2.7 4.2-6 3.8-10.2 0Z" fill="currentColor" opacity=".88"/>
+        <circle cx="17" cy="17" r="2.2" fill="#000"/>
+      </svg>
+      <span>The Flowers</span>
+    </a>
+    <div class="gn-end">
+      <nav aria-label="Sections"><a href="#index" hidden data-needs-js>Studies</a><a href="#notes" hidden data-needs-js>Research</a><a class="gn-cta" href="#top">Lilies</a></nav>
+      <!-- Audio toggle: hidden until audio.js runs, so there is never a dead control. Never autoplays. -->
+      <button class="audio-toggle" id="audio-toggle" type="button" aria-label="Enable audio" aria-pressed="false" data-state="off" hidden>
+        <svg class="audio-orb" viewBox="0 0 65 65" aria-hidden="true" focusable="false">
+          <circle cx="32.5" cy="32.5" r="32" fill="#63615C"/>
+          <path class="audio-line" d="M10 32.5H55" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+          <g class="audio-wave" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round">
+            <path class="audio-wave-bar" d="M19 32.5V29.5"/>
+            <path class="audio-wave-bar" d="M25 32.5V26.5"/>
+            <path class="audio-wave-bar" d="M31 32.5V23.5"/>
+            <path class="audio-wave-bar" d="M37 32.5V27"/>
+            <path class="audio-wave-bar" d="M43 32.5V29.5"/>
+            <path class="audio-wave-bar" d="M49 32.5V30.5"/>
+          </g>
+        </svg>
+        <span class="audio-text">
+          <span class="audio-label">ENABLE AUDIO</span>
+          <span class="audio-face" aria-hidden="true">ヾ(´◯`)ﾉ♪♪♪</span>
+        </span>
+      </button>
+      <span class="audio-status" id="audio-status" role="status" aria-live="polite" aria-atomic="true"></span>
+    </div>
+  </header>
+  <noscript><p class="state-note">The flowers are drawn live in your browser, so this page needs JavaScript to show them. Turn JavaScript on and reload to see the studies.</p></noscript>
+  <main id="main">
+  <section class="chapter chapter-one" id="top" aria-label="Study one: lilies">
+  <div class="scene">
+    <canvas id="screen" role="img" aria-label="Animated drawing of lilies, fine greenery and tiny white blossoms, made of coloured text characters."></canvas>
+  </div>
+
+  <div class="page-shell">
+    <div class="main-content">
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Botanical study / 01</p>
+        <h2 id="page-title">The quiet art<br>of <em>becoming.</em></h2>
+        <p class="study-latin">Lilium · Liliaceae</p>
+        <p class="intro-copy">Lilies, fine greenery and tiny white blossoms grow into a living composition, one character at a time.</p>
+        <div class="intro-actions">
+          <button class="button button-primary" id="replay-hero" type="button" aria-label="Replay the bloom, lilies">
+            <span>Replay the bloom</span>
+            <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.3 8A6.5 6.5 0 1 0 16.5 11M16.3 3.8V8h-4.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <aside class="controls-dock glass" aria-label="Lily animation controls">
+      <div class="dock-label">
+        <span class="dock-title" id="animation-state" aria-live="polite">Playing</span>
+      </div>
+      <span class="dock-divider" aria-hidden="true"></span>
+      <button class="icon-button glass-inset" id="pause-toggle" type="button" aria-label="Pause lily animation" aria-pressed="false" title="Pause or resume (Space)">
+        <svg class="pause-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="5.5" y="4.5" width="3.2" height="11" rx="1" fill="currentColor"/><rect x="11.3" y="4.5" width="3.2" height="11" rx="1" fill="currentColor"/></svg>
+        <svg class="play-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m7.2 5.6 7 4.4-7 4.4V5.6Z" fill="currentColor"/></svg>
+      </button>
+      <button class="palette-button glass-inset" id="palette-toggle" type="button" title="Change colour palette (P)">
+        <span class="palette-swatches" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="palette-copy"><small>Colour</small><strong id="palette-name">Pink</strong></span>
+      </button>
+    </aside>
+  </div>
+  </section>
+
+  <section class="chapter chapter-two" id="peony-study" aria-labelledby="peony-title">
+    <div class="scene scene-peony">
+      <canvas id="peony-screen" role="img" aria-label="Animated drawing of peonies, made of coloured text characters."></canvas>
+    </div>
+
+    <div class="page-shell page-shell-two">
+      <div class="peony-main">
+        <section class="peony-intro" aria-labelledby="peony-title">
+          <p class="eyebrow">Botanical study / 02</p>
+          <h2 id="peony-title">A softer kind<br>of <em>wild.</em></h2>
+          <p class="study-latin">Paeonia · Paeoniaceae</p>
+          <p class="intro-copy">Peonies in layers of silk and colour. Each petal unfolds in its own time, building a small garden from moving type.</p>
+          <div class="intro-actions">
+            <button class="button button-primary" id="peony-replay" type="button" aria-label="Replay the bloom, peonies">
+              <span>Replay the bloom</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.3 8A6.5 6.5 0 1 0 16.5 11M16.3 3.8V8h-4.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <a class="text-link" href="#top">Return to the lilies <span aria-hidden="true">↑</span></a>
+          </div>
+        </section>
+      </div>
+
+      <aside class="controls-dock glass peony-controls" aria-label="Peony animation controls">
+        <div class="dock-label">
+          <span class="dock-title" id="peony-animation-state" aria-live="polite">Playing</span>
+        </div>
+        <span class="dock-divider" aria-hidden="true"></span>
+        <button class="icon-button glass-inset" id="peony-pause" type="button" aria-label="Pause peony animation" aria-pressed="false" title="Pause or resume (Space)">
+          <svg class="pause-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="5.5" y="4.5" width="3.2" height="11" rx="1" fill="currentColor"/><rect x="11.3" y="4.5" width="3.2" height="11" rx="1" fill="currentColor"/></svg>
+          <svg class="play-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m7.2 5.6 7 4.4-7 4.4V5.6Z" fill="currentColor"/></svg>
+        </button>
+        <button class="palette-button glass-inset" id="peony-palette" type="button" title="Change peony colour palette (P)">
+          <span class="palette-swatches peony-swatches" id="peony-swatches" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="palette-copy"><small>Colour</small><strong id="peony-palette-name">Rosewater</strong></span>
+        </button>
+      </aside>
+    </div>
+  </section>
+
+  <section class="chapter chapter-three" id="violet-study" aria-labelledby="violet-title">
+    <div class="scene scene-violet">
+      <canvas id="violet-screen" role="img" aria-label="Animated drawing of violets above a bed of heart-shaped leaves, made of coloured text characters."></canvas>
+    </div>
+
+    <div class="page-shell page-shell-three">
+      <div class="violet-main">
+        <section class="violet-intro" aria-labelledby="violet-title">
+          <p class="eyebrow">Botanical study / 03</p>
+          <h2 id="violet-title">A letter<br>in <em>violet.</em></h2>
+          <p class="study-latin">Viola · Violaceae</p>
+          <p class="intro-copy">Small five-petalled flowers in periwinkle, ink blue and antique gold. Each face opens above a quiet bed of heart-shaped leaves, drawn in living type.</p>
+          <div class="intro-actions">
+            <button class="button button-primary" id="violet-replay" type="button" aria-label="Replay the flowering, violets">
+              <span>Replay the flowering</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.3 8A6.5 6.5 0 1 0 16.5 11M16.3 3.8V8h-4.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <a class="text-link" href="#peony-study">Return to the peonies <span aria-hidden="true">↑</span></a>
+          </div>
+        </section>
+      </div>
+
+      <aside class="controls-dock glass violet-controls" aria-label="Violet animation controls">
+        <div class="dock-label">
+          <span class="dock-title" id="violet-animation-state" aria-live="polite">Playing</span>
+        </div>
+        <span class="dock-divider" aria-hidden="true"></span>
+        <button class="icon-button glass-inset" id="violet-pause" type="button" aria-label="Pause violet animation" aria-pressed="false" title="Pause or resume (Space)">
+          <svg class="pause-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="5.5" y="4.5" width="3.2" height="11" rx="1" fill="currentColor"/><rect x="11.3" y="4.5" width="3.2" height="11" rx="1" fill="currentColor"/></svg>
+          <svg class="play-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m7.2 5.6 7 4.4-7 4.4V5.6Z" fill="currentColor"/></svg>
+        </button>
+        <button class="palette-button glass-inset" id="violet-palette" type="button" title="Change violet colour palette (P)">
+          <span class="palette-swatches violet-swatches" id="violet-swatches" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="palette-copy"><small>Colour</small><strong id="violet-palette-name">Periwinkle</strong></span>
+        </button>
+      </aside>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="shortcuts"><kbd>Space</kbd> pauses, <kbd>R</kbd> replays and <kbd>P</kbd> changes the colour of the study in view.</p>
+  </footer>
+</body>
+</html>
